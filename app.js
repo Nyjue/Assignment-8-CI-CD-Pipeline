@@ -113,7 +113,7 @@ function searchAlbums() {
 }
 
 // Sort albums
-function sortAlbums() {
+function sortAlbumsBroken() {
     const sortValue = sortBy.value;
 
     filteredAlbums.sort((a, b) => {
